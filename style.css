@@ -1,0 +1,55 @@
+/* Fonti bazë dhe stilizimi i trupit */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #494747;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Div kryesor */
+.kuti {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Emri */
+.emri {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Paragrafi */
+.pershkrimi {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Butoni */
+.kontakto {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Pseudo-klasa hover */
+.kontakto:hover {
+  background-color: #2980b9;
+}
+
+/* Pseudo-klasa focus */
+.kontakto:focus {
+  outline: 2px dashed #555;
+}
